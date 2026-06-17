@@ -22,6 +22,8 @@ Classify the error using ONE of the following categories ONLY:
 - verb form
 - article
 - redundancy
+- factual error
+- omission
 
 Respond in this exact format:
 ERROR_TYPE: <category>
