@@ -3,11 +3,17 @@
 ## 개요
  본 연구는 소형 언어 모델(Small Language Model, SLM) 기반 통역 피드백 시스템의 추론 지연(latency) 문제를 완화하기 위한 구조적 최적화 방안을 제안한다. 실시간 통역 피드백 서비스에서는 음성 인식(STT) 이후 언어 모델이 오류 분석 및 피드백 생성을 수행해야 하므로, 피드백 생성 과정의 추론 지연이 전체 응답 시간을 결정하는 주요 요인으로 작용한다. 이를 해결하기 위해 본 연구에서는 Speculative Decoding 구조를 적용하고, 드래프트 모델의 성능을 향상시켜 수락률을 높이기 위한 학습 방법을 설계하였다. 이를 위해 먼저 지식 증류(Knowledge Distillation)를 통해 통역 오류 분석 및 피드백 생성에 특화된 학습 데이터를 구축한다. 이후 LoRA 기반 미세조정을 통해 드래프트 모델이 통역 피드백 형식과 도메인 지식을 학습하도록 하고,  분포 모방 학습을 수행하여 타겟 모델과의 출력 분포 차이를 완화하고 수락률을 개선하였다. 이와 같은 접근을 통해 불필요한 재검증 연산을 줄여 추론 속도를 개선하고, 동시에 피드백 품질을 유지할 수 있는 실시간 통역 피드백 시스템의 구현 가능성을 제시한다.
 
+---
 
+## 발표자료
+
+- [졸업프로젝트 발표자료]([https://drive.google.com/file/d/1CZ8zOhdjFvEQ0c7YCo8Yndoth0zDRYQm/view?usp=drive_link](https://drive.google.com/file/d/1tPA-7s_pOczSL-vCobqjyIn5l32ceje9/view?usp=drive_link))
+  
+---
+
+## 실험 모델
 - **Target 모델**: Qwen2.5-7B-Instruct
 - **Draft 모델**: Qwen2.5-0.5B-Instruct + LoRA fine-tuning
-
----
 
 ## 실험 환경
 - GPU: NVIDIA RTX 3090 24GB (단일)
