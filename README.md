@@ -7,7 +7,9 @@
 
 ## 발표자료
 
-- [졸업프로젝트 발표자료]([https://drive.google.com/file/d/1CZ8zOhdjFvEQ0c7YCo8Yndoth0zDRYQm/view?usp=drive_link](https://drive.google.com/file/d/1tPA-7s_pOczSL-vCobqjyIn5l32ceje9/view?usp=drive_link))
+- [졸업프로젝트 발표자료](https://drive.google.com/file/d/1CZ8zOhdjFvEQ0c7YCo8Yndoth0zDRYQm/view?usp=drive_link](https://drive.google.com/file/d/1tPA-7s_pOczSL-vCobqjyIn5l32ceje9/view?usp=drive_link)
+
+- - [UN 보고서 통역 피드백 데모](https://drive.google.com/file/d/1CZ8zOhdjFvEQ0c7YCo8Yndoth0zDRYQm/view?usp=drive_link](https://drive.google.com/file/d/1tPA-7s_pOczSL-vCobqjyIn5l32ceje9/view?usp=drive_link))
   
 ---
 
